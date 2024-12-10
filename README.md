@@ -6,17 +6,30 @@ This notebook trains and evaluates an image generation model (GAN) using PyTorch
 - **Intra-FID**: Computes FID for each class or subclass separately.
 - **Inception Score**: Evaluates the diversity and quality of generated images.
 
+## How to Download 
+
+1. Clone the Repository
+   ```
+   git clone https://github.com/Battlehooks/ricebowl-cifar-100-gen.git
+   cd ricebowl-cifar-100 gen
+   ```
+2. Install the prerequisites below
+
 ## Prerequisites
 
 1. Install Python (version >= 3.8 is recommended).
 2. Install Jupyter Notebook:
    ```
-   pip install notebook
+   pip install jupyter notebook
    ```
 
 3. Install the required Python libraries:
    ```
    pip install torch torchvision torchmetrics tqdm pillow scipy numpy
+   ```
+   or
+   ```
+   pip install -r requirements.txt
    ```
 
 ## How to Use the Notebook
