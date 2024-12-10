@@ -74,9 +74,3 @@ Superclass 17 : 254.2173988003457
 Superclass 18 : 179.20203719899672
 Superclass 19 : 188.90157601211308
 ```
-
-### Notes
-- Ensure that the required dataset (e.g., CIFAR-100) is downloaded when prompted.
-- Modify hyperparameters (e.g., learning rate, batch size) in the code if necessary.
-
-Happy experimenting!
